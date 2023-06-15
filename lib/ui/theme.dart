@@ -11,7 +11,7 @@ const Color darkHeaderClr = Color(0xFF424242);
 class Themes {
   static final light = ThemeData(
     appBarTheme: const AppBarTheme(
-      iconTheme: IconThemeData(color: primaryClr),
+      iconTheme: IconThemeData(color: Colors.white),
       color: primaryClr, //<-- SEE HERE
     ),
     primaryColor: primaryClr,
@@ -19,7 +19,7 @@ class Themes {
   );
   static final dark = ThemeData(
     appBarTheme: const AppBarTheme(
-      iconTheme: IconThemeData(color: darkGreyClr),
+      iconTheme: IconThemeData(color: Colors.white),
       color: darkGreyClr, //<-- SEE HERE
     ),
     primaryColor: darkGreyClr,
